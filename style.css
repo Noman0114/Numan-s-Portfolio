@@ -76,7 +76,7 @@ nav li:hover {
   background: var(--dark-color);
   padding: 4rem 0;
   border-bottom: 4px solid var(--lighting-color);
-  max-height: 100vh;
+ max-height: 100vh;
 }
 #hero .container {
   display: flex;
@@ -91,6 +91,11 @@ nav li:hover {
 #hero h1 {
   font-size: 3rem;
   font-weight: bold;
+}
+#hero img{
+  height: 80vh;
+  border-radius: 30%;
+  box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.24);
 }
 
 .hi_text {
@@ -162,6 +167,7 @@ nav li:hover {
 .card:hover {
   transform: scale(1.05);
   transition: 1s ease-in-out;
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.212);
 }
 .card:hover img {
   transform: scale(1.05);
