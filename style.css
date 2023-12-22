@@ -56,7 +56,7 @@ nav {
 }
 nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 5rem;
 }
 nav li {
   font-size: 1.8rem;
@@ -68,7 +68,7 @@ nav li:hover {
   transition: 0.3s ease-in-out;
 }
 .logo {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
