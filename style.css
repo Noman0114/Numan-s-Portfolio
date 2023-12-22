@@ -93,10 +93,12 @@ nav li:hover {
   font-weight: bold;
 }
 #hero img{
-  height: 80vh;
+  height: 75vh;
   border-radius: 30%;
   box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.24);
-  width:400px;
+width: 400px;
+
+
 }
 
 .hi_text {
@@ -277,6 +279,9 @@ footer {
   .hero_image {
     display: grid;
     place-items: center;
+  }
+  #hero img{
+    width: 300px;
   }
   #contact .container {
     height: 50vh;
