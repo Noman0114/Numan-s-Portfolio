@@ -2,267 +2,291 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Numan's Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Numan Portfolio</title>
+
 </head>
 
 <body>
-  <header id="top-1">
-    <nav class="container">
-      <div class="logo">Portfolio</div>
-      <ul>
-        <a href="#hero">
-          <li>Home</li>
-        </a>
-        <a href="#project">
-          <li>Projects</li>
-        </a>
-        <a href="#education">
-          <li>Education</li>
-        </a>
-        <a href="#contact">
-          <li>Contact</li>
-        </a>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <div class="container">
-        <div class="hero_image animate__animated animate__bounceInLeft">
-          <img src="./images/hero.png" alt="hero image" />
+
+
+    <section class="header">
+
+
+        <header class="text-gray-600 body-font ">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+
+                    <span class="ml-3 text-3xl gradient-text">Numan</span>
+                </a>
+                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <a class="mr-5 hover:text-gray-900" href="#">Home</a>
+                    <a class="mr-5 hover:text-gray-900" href="#a">About</a>
+                    <a class="mr-5 hover:text-gray-900" href="#ser">Services</a>
+                    <a class="mr-5 hover:text-gray-900" href="#project">Projects</a>
+                    <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+
+                </nav>
+
+            </div>
+        </header>
+
+
+    </section>
+    <section class="body">
+        <div class="left">
+            <div class="hlo">
+                <div class="first">Hello</div>
+                <div class="second"> </div>
+            </div>
+            <div class="intro">
+                <div class="first"> I am numan Ahmad</div>
+                <div class="second">frontend web developer</div>
+            </div>
+            <div class="btn">
+
+                <a href="cv/cv.pdf"><button class="primary_btn">Get cv </button> </a>
+                <a href="#contact">
+                    <button class="prim_btn">Contact me</button></a>
+            </div>
         </div>
-        <div class="hero_content">
-          <h1>
-            <span class="hi_text">Hi</span> , I am
-            <span class="name_text">Numan Ahmad</span>
-          </h1>
-          <h2>Frontend Developer</h2>
+        <div class="right">
+            <img src="img/home-right.png.webp" alt="Pic">
         </div>
-      </div>
+    </section>
+    <section class="about" id="a">
+        <div class="left"><img src="img/about-us.png.webp" alt="About us"></div>
+        <div class="right">
+            <span class="first">LET’S <br>
+                INTRODUCE ABOUT <br>
+                MYSELF</span><br>
+            <span class="second"> Hello, I'm Numan Ahmad your go-to web developer for sleek, user-centric websites. 💻
+                Specializing in [Your Technologies], I bring ideas to life with clean code and creative flair. 🌐
+                Whether you need a stunning portfolio, e-commerce powerhouse, or anything in between, let's collaborate
+                and elevate your online presence! <br> Is give may shall likeness made yielding spirit a itself
+                together
+                created after sea is in beast
+                beginning signs open god you're gathering whose gathered cattle let. Creature whales fruit unto meat the
+                life beginning all in under give two.</span><br>
+            <span class="third"><a href="cv/cv.pdf" download=""><button class="primary_btn"> Download Cv</button></a>
+            </span>
+        </div>
+    </section>
+    <section class="services" id="ser">
+        <h2>Services</h2>
+        <div class="grid-box">
+
+            <div class="item-1 item">
+                <img src="img/grid-img-1.png" alt="">
+                <h3>Web Design</h3>
+                <p>Crafting interactive and dynamic web solutions tailored to elevate your online presence.</p>
+            </div>
+            <div class="item-2 item">
+                <img src="img/grid-iem-2.png" alt="">
+                <h3>UI/UX DESIGN</h3>
+                <p>Transforming ideas into captivating user experiences through intuitive design.</p>
+
+            </div>
+            <div class="item-3 item">
+                <img src="img/grid-item-3.png" alt="">
+                <h3>WP DEVELOPING</h3>
+                <p>Bringing concepts to life with visually stunning and engaging web designs. </p>
+
+            </div>
+        </div>
     </section>
 
-    <h1 id="education" style="background-color: rgb(10,56,102); text-align: center; padding: 20px; font-size: 40px;">Education & Skills</h1>
-    <section class="education" >
-      
-      <div class="education-row">
-        <div class="education-column">
-          <h3 class="title">
-            Education <span class="animate scroll" style="--i: 2"></span>
-          </h3>
 
-          <div class="education-box">
-            <div class="education-content">
-              <div class="content">
-                <div class="year">
-                  <i class="bx bxs-calendar"></i>2016 - 2018
-                </div>
-                <h3>CMR High School - Matriculation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Omnis, iusto? Corrupti sunt est reprehenderit blanditiis a cum
-                  dolor quos provident.
-                </p>
-              </div>
-            </div>
-
-            <div class="education-content">
-              <div class="content">
-                <div class="year">
-                  <i class="bx bxs-calendar"></i>2018 - 2020
-                </div>
-                <h3>Punjab Collage - Intermediate</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Omnis, iusto? Corrupti sunt est reprehenderit blanditiis a cum
-                  dolor quos provident.
-                </p>
-              </div>
-            </div>
-
-            <div class="education-content">
-              <div class="content">
-                <div class="year">
-                  <i class="bx bxs-calendar"></i>2020 - 2024
-                </div>
-                <h3>Comsats University Islamabad - Graduation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Omnis, iusto? Corrupti sunt est reprehenderit blanditiis a cum
-                  dolor quos provident.
-                </p>
-              </div>
-            </div>
-            <span class="animate scroll" style="--i: 3"></span>
-          </div>
-        </div>
-      </div>
-      <div class="skills-row">
-      <div class="skills-column">
-        <h3 class="title">
-          Coding Skills <span class="animate scroll" style="--i: 2"></span>
-        </h3>
-
-        <div class="skills-box">
-          <div class="skills-content">
-            <div class="progress">
-              <h3>HTML <span>90%</span></h3>
-              <div class="bar"><span> <span style="background-color: rgb(0, 174, 255); width: 90%;"></span></span></div>
-            </div>
-
-            <div class="progress">
-              <h3>CSS <span>80%</span></h3>
-              <div class="bar"><span><span style="background-color: rgb(0, 174, 255); width: 80%;"></span></span></div>
-            </div>
-
-            <div class="progress">
-              <h3>JavaScript <span>65%</span></h3>
-              <div class="bar"><span><span style="background-color: rgb(0, 174, 255); width: 65%;"></span></span></div>
-            </div>
-            <div class="progress">
-              <h3>Tailwind Css <span>65%</span></h3>
-              <div class="bar"><span><span style="background-color: rgb(0, 174, 255); width: 65%;"></span></span></div>
-            </div>
-
-
-            <div class="progress">
-              <h3>React <span>65%</span></h3>
-              <div class="bar"><span><span style="background-color: rgb(0, 174, 255); width: 65%;"></span></span></div>
-            </div>
-          </div>
-          <span class="animate scroll" style="--i: 3"></span>
-        </div>
-      </div>
-
-    </div>
-    </section>
     <section id="project">
-      <h2>PROJECTS</h2>
-      <div class="container">
-        <div class="project_container">
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 1/index.html"> <img src="images/project1.png" alt="Project 1" />
-                <div class="card_content">
-                  <h3>Tribute Website</h3>
+        <h2>PROJECTS</h2>
+        <div class="container">
+            <div class="project_container">
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 1/index.html"> <img src="images/project1.png" alt="Project 1" />
+                            <div class="card_content">
+                                <h3>Tribute Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 2/index.html"> <img src="images/project2.png" alt="Project 1" />
-                <div class="card_content">
-                  <h3>Job Application</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 2/index.html"> <img src="images/project2.png" alt="Project 1" />
+                            <div class="card_content">
+                                <h3>Job Application</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 3/index.html"> <img src="images/project3.png" alt="Project 1" />
-                <div class="card_content">
-                  <h3>Parallax Website</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 3/index.html"> <img src="images/project3.png" alt="Project 1" />
+                            <div class="card_content">
+                                <h3>Parallax Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 4/index.html"> <img src="images/project4.png" alt="Project 4" />
-                <div class="card_content">
-                  <h3>Landing Page</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 4/index.html"> <img src="images/project4.png" alt="Project 4" />
+                            <div class="card_content">
+                                <h3>Landing Page</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 5/index.html"> <img src="images/project5.png" alt="Project 5" />
-                <div class="card_content">
-                  <h3>Restaurant Website</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 5/index.html"> <img src="images/project5.png" alt="Project 5" />
+                            <div class="card_content">
+                                <h3>Restaurant Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 6/index.html"> <img src="images/project6.png" alt="Project 6" />
-                <div class="card_content">
-                  <h3>Music Website</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 6/index.html"> <img src="images/project6.png" alt="Project 6" />
+                            <div class="card_content">
+                                <h3>Music Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 7/index.html"> <img src="images/project7.png" alt="Project 7" />
-                <div class="card_content">
-                  <h3>Youtube Clone</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 7/index.html"> <img src="images/project7.png" alt="Project 7" />
+                            <div class="card_content">
+                                <h3>Youtube Clone</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 8/index.html"> <img src="images/project8.png" alt="Project 8" />
-                <div class="card_content">
-                  <h3>Documentation Website</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 8/index.html"> <img src="images/project8.png" alt="Project 8" />
+                            <div class="card_content">
+                                <h3>Documentation Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="grid_item">
-            <div class="card">
-              <a href="Project 9/home.html"> <img src="images/project9.png" alt="Project 9" />
-                <div class="card_content">
-                  <h3>Blog Website</h3>
+                <div class="grid_item">
+                    <div class="card">
+                        <a href="Project 9/home.html"> <img src="images/project9.png" alt="Project 9" />
+                            <div class="card_content">
+                                <h3>Blog Website</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-              </a>
             </div>
-          </div>
         </div>
-      </div>
     </section>
-    <section id="contact">
-      <div class="container">
-        <h2>Let's work together...</h2>
-        <div class="top_contact">
-          <div class="contact_way">
-            <i class="fab fa-linkedin"></i>
-            <h3>Linkedin</h3>
-          </div>
-          <div class="contact_way">
-            <i class="fa fa-twitter"></i>
-            <h3>Twitter</h3>
-          </div>
-          <div class="contact_way">
-            <h3>@ Send Mail</h3>
-          </div>
-        </div>
-        <div class="bottom_contact">
-          <div class="contact_way">
-            <i class="fab fa-github"></i>
-            <h3>Github</h3>
-          </div>
-          <div class="contact_way">
-            <i class="fa fa-mobile"></i>
-            <h3>Mobile</h3>
-          </div>
-        </div>
-      </div>
+
+
+    <section class="contact" id="contact">
+        <section class="text-gray-600 body-font relative">
+            <form action="https://formsubmit.co/na94593170@gmail.com" method="POST">
+
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-12">
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+                            style="font-size: 80px; margin-bottom: 80px;">Contact Us</h1>
+
+                    </div>
+                    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                        <div class="flex flex-wrap -m-2">
+                            <div class="p-2 w-1/2">
+                                <div class="relative">
+                                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                                    <input type="text" id="name" name="name" required
+                                        class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                </div>
+                            </div>
+                            <div class="p-2 w-1/2">
+                                <div class="relative">
+                                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                                    <input type="email" id="email" name="email" required
+                                        class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                </div>
+                            </div>
+                            <div class="p-2 w-full">
+                                <div class="relative">
+                                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                                    <textarea id="message" name="message" required
+                                        class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                </div>
+                            </div>
+                            <input type="hidden" name="_captcha" value="false">
+                            <div class="p-2 w-full">
+                                <button
+                                    class=" text-white bg-indigo-500 border-0  focus:outline-none  rounded primary_btn"
+                                    type="submit">Submit</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
     </section>
-  </main>
-  <footer style="display: flex; flex-direction: row;">
-    <div class="container">Created By Numan Ahmad    
-  </div>
-  <div class="top" style="color:white; "><a href="#top-1">Top</a></div>
-  </footer>
+
+
+    <section class="footer" id="footer">
+        <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+
+                    <span class="ml-3 text-xl">Numan</span>
+                </a>
+                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                    2024 Numans —
+                    <a href="" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Numan</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </footer>
+    </section>
 </body>
 
 </html>
