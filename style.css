@@ -184,7 +184,11 @@ margin-left: 10px;
     height: 2px;
     max-width: 300px;
 }
-
+@media(max-width:770px){
+    .body{
+        margin-top: 150px;
+    }
+}
 @media (max-width: 470px) {
     .intro .first {
         font-size: 60px;
