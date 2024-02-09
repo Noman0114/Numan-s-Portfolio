@@ -20,19 +20,8 @@ ul {
     box-sizing: border-box;
 }
 
-/* Style the header section */
-.header {
-    margin: 20px 85px;
-    color: #fff;
-    padding: 10px 20px;
-}
 
-/* Style the navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 /* Style the logo */
 .logo {
@@ -62,27 +51,29 @@ ul {
     font-weight: bolder;
 }
 
-.header a {
-    cursor: pointer;
-}
+
+
+
+
+
 
 
 
 .body {
 
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .body img {
 
     vertical-align: middle;
-    width: 28rem;
+    max-width: 28rem;
 }
 
 .body .right {
-    margin-top: 30px;
+   margin-top: 30px;
 }
 
 .primary_btn {
@@ -103,10 +94,6 @@ ul {
 
     box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
 
-}
-
-.card a {
-    text-decoration: none;
 }
 
 .primary_btn:hover {
@@ -150,11 +137,116 @@ ul {
 }
 
 
+.intro .first {
+    margin-top: 10px;
+    font-size: 70px;
+
+
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro .second {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.body .left .btn {
+    margin-top: 30px;
+}
+
+.body .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin-left: 10px;
+
+}
+
+.hlo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hlo .first {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.hlo .second {
+    background-color: black;
+    height: 2px;
+    max-width: 300px;
+}
+
+@media (max-width: 470px) {
+    .intro .first {
+        font-size: 60px;
+        /* Adjust as needed */
+    }
+
+    .intro .second {
+        font-size: 20px;
+        /* Adjust as needed */
+    }
+
+    .intro .first {
+        font-size: 50px;
+    }
+
+    .intro .second {
+        font-size: 18px;
+    }
+
+    .primary_btn,
+    .prim_btn {
+        width: 100px;
+        /* Adjust the button width as needed */
+        font-size: 10px;
+        /* Adjust the button font size as needed */
+    }
+
+    .body img {
+
+        max-width: 25rem;
+    }
+
+    .hlo .first {
+        font-size: 30px;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card a {
+    text-decoration: none;
+}
+
 
 #project {
     background: var(--darker-color);
 
-    margin: 80px 120px;
+    
 }
 
 #project h2 {
@@ -222,56 +314,10 @@ ul {
 
 }
 
-.hlo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.hlo .first {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
-.hlo .second {
-    background-color: black;
-    height: 2px;
-    width: 400px;
-}
-
-.intro .first {
-    margin-top: 10px;
-    font-size: 70px;
-
-
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.intro .second {
-    font-size: 24px;
-    margin-top: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-
-}
-
-.body .left .btn {
-    margin-top: 30px;
-}
-
-.body .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
 
 .about {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 200px;
     justify-content: center;
     gap: 150px;
@@ -303,12 +349,22 @@ ul {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.719);
     line-height: 30px;
+    text-align: justify;
 }
 
 .about .right .third {
     margin-top: 15px;
 }
 
+@media (max-width:1150px){
+    .about .left img{
+        display:none;
+    }
+    .about{
+        margin-top: 0px;
+    }
+    
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -366,7 +422,7 @@ ul {
 
 /* General Styles */
 .services {
-    margin-top: 5vw;
+    margin-top: 10vw;
 }
 
 .services h2 {
@@ -394,15 +450,13 @@ ul {
     justify-content: center;
     align-items: center;
     margin-top: 5vw;
-    margin-left: 150px;
-    margin-right: 150px;
+margin: 0 20px;
 }
 
 .grid-box .item {
     flex: 1; /* Add this line to distribute space evenly */
     min-width: 200px;
     height: 50%;
-    width: 400px;
     display: flex;
     flex-direction: column;
     gap: 1vw;
@@ -423,6 +477,9 @@ ul {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .services{
+        margin-top:15vw;
+    }
     .services h2 {
         font-size: 8vw;
     }
@@ -437,6 +494,9 @@ ul {
 }
 
 @media (max-width: 480px) {
+    .services{
+        margin-top: 18vw;
+    }
     .grid-box .item {
         width: 80%;
     }
