@@ -249,12 +249,13 @@ margin-left: 10px;
 
 #project {
     background: var(--darker-color);
+    margin-top: 100px;
 
     
 }
 
 #project h2 {
-    font-size: 5rem;
+    font-size: 6vw;
     text-align: center;
     padding: 2rem 0;
     margin-bottom: 50PX;
@@ -325,7 +326,8 @@ margin-left: 10px;
     margin-top: 200px;
     justify-content: center;
     gap: 150px;
-  margin-left: 10px;
+    margin-left: 20px;
+
 }
 
 .about .left img {
@@ -484,12 +486,10 @@ margin: 0 20px;
     .services{
         margin-top:15vw;
     }
-    .services h2 {
-        font-size: 8vw;
-    }
+   
 
     .services h3 {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .grid-box .item {
@@ -504,4 +504,7 @@ margin: 0 20px;
     .grid-box .item {
         width: 80%;
     }
+}
+.contact{
+    margin-top: 100px;
 }
